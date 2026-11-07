@@ -1,6 +1,8 @@
 name: Auto Build litellm (Self hosted)
 
 on:
+  schedule:
+    - cron: '38 19 * * *'
   workflow_dispatch:
 
 env:
